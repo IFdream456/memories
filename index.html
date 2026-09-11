@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFdReAm - 幻想空间</title>
+    <!-- 引入外部样式表 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 动态粉蓝光晕背景 -->
+    <div class="background-decorations">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+
+    <!-- 现代二次元毛玻璃主卡片 -->
+    <main class="glass-container">
+        <div class="glass-card">
+            <div class="badge">二次元 · 现代化</div>
+            <h1 class="title">IFdReAm</h1>
+            <p class="subtitle">打破次元壁的界限。<br>在这里，构建属于你的幻想空间。</p>
+            <div class="action-group">
+                <button id="startBtn" class="btn btn-primary">开启旅程</button>
+                <a href="#about" id="aboutBtn" class="btn btn-secondary">了解更多</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- 模态框组件 -->
+    <div id="modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <h3>✨ 欢迎开启 IFdReAm !</h3>
+            <p>这是一个充满无限可能的二次元极简现代化空间。</p>
+            <button id="closeModal" class="btn btn-primary">进入世界</button>
+        </div>
+    </div>
+
+    <!-- 引入交互脚本 -->
+    <script src="js/main.js"></script>
+</body>
+</html>
